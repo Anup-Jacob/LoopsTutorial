@@ -3,7 +3,7 @@
 # File          : Q1.py
 # Author        : Anup Jacob
 # Version       : v1.0
-# Created Date  :  30/09/2021
+# Created Date  : 30/09/2021
 # Modified Date : 
 # Description   : A sample program to test the break, continue and pass statements in a loop
 # Licensing     : Anup Jacob, LYIT
