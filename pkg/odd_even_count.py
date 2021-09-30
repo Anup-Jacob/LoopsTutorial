@@ -3,7 +3,7 @@
 # File          : odd_even_count.py
 # Author        : Anup Jacob
 # Version       : v1.0
-# Created Date  :  30/09/2021
+# Created Date  : 30/09/2021
 # Modified Date : 
 # Description   : A program to count the total number of odd and even numbers when a maximum value is given as input
 # Licensing     : Anup Jacob, LYIT
