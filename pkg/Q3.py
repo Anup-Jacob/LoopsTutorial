@@ -4,7 +4,7 @@
 # Author        : Anup Jacob
 # Version       : v1.0
 # Created Date  : 30/09/2021
-# Modified Date : 
+# Modified Date : 30/09/2021
 # Description   : Write a Python program that accepts a string and calculate the number of digits, upper case letters and lower case letters
 # Licensing     : Anup Jacob, LYIT
 # ----------------------------------
