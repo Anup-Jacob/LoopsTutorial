@@ -16,3 +16,6 @@ strings handout and find
 
 check if it is upper, lower; check if in ascii range or  check python string functions
 check if it isdigit'''
+
+if __name__ == '__main__':
+
