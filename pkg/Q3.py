@@ -20,6 +20,8 @@ check if it isdigit'''
 if __name__ == '__main__':
 
     digitcount = 0
+    uppercount = 0
+    lowercount = 0
 
     CharArray = input("Enter the String to be checked : ")
     # Input is taken from the user
@@ -32,13 +34,25 @@ if __name__ == '__main__':
     print("Length of the String is : {}".format(ArrLen))
     # Displays the length of the String entered by the user
 
-    for i in range (1,ArrLen):
+    for i in range (0,ArrLen):
         # print(arr[i].isdigit())
         if arr[i].isdigit() == True:
             digitcount = digitcount + 1
+        elif arr[i].isupper() == True:
+            uppercount = uppercount + 1
+        elif arr[i].islower() == True:
+            lowercount = lowercount + 1
 
     print("Total number of digits in the String entered : {}".format(digitcount))
     # Displays the total number of digits in the String input from the user
+
+    print("Total number of uppercase letters in the String entered : {}".format(uppercount))
+    # Displays the total number of upper case letters in the String input from the user
+
+    print("Total number of lowercase letters in the String entered : {}".format(lowercount))
+    # Displays the total number of lower case letters in the String input from the user
+
+    print("Thank you for using my character check application!!")
 
 
 
