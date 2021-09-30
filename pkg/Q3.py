@@ -22,6 +22,7 @@ if __name__ == '__main__':
     digitcount = 0
 
     CharArray = input("Enter the String to be checked : ")
+    # Input is taken from the user
 
     print(CharArray)
     arr = list(CharArray)
@@ -29,6 +30,7 @@ if __name__ == '__main__':
     ArrLen = len(CharArray)
 
     print("Length of the String is : {}".format(ArrLen))
+    # Displays the length of the String entered by the user
 
     for i in range (1,ArrLen):
         # print(arr[i].isdigit())
@@ -36,6 +38,7 @@ if __name__ == '__main__':
             digitcount = digitcount + 1
 
     print("Total number of digits in the String entered : {}".format(digitcount))
+    # Displays the total number of digits in the String input from the user
 
 
 
