@@ -19,3 +19,23 @@ check if it isdigit'''
 
 if __name__ == '__main__':
 
+    digitcount = 0
+
+    CharArray = input("Enter the String to be checked : ")
+
+    print(CharArray)
+    arr = list(CharArray)
+
+    ArrLen = len(CharArray)
+
+    print("Length of the String is : {}".format(ArrLen))
+
+    for i in range (1,ArrLen):
+        # print(arr[i].isdigit())
+        if arr[i].isdigit() == True:
+            digitcount = digitcount + 1
+
+    print("Total number of digits in the String entered : {}".format(digitcount))
+
+
+
