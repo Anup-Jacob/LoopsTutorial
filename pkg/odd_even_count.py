@@ -4,7 +4,7 @@
 # Author        : Anup Jacob
 # Version       : v1.0
 # Created Date  : 30/09/2021
-# Modified Date : 
+# Modified Date : 30/09/2021
 # Description   : A program to count the total number of odd and even numbers when a maximum value is given as input
 # Licensing     : Anup Jacob, LYIT
 # ----------------------------------
@@ -28,5 +28,7 @@ if __name__ == '__main__':
             max = max -1
 
     print("The number of even numbers is : {}".format(count_even))
+    # displays the count of even numbers on the screen
+    
     print("The number of odd numbers is : {}".format(count_odd))
-    # printing the counts to the screen
+    # displays the count of odd numbers on the screen
